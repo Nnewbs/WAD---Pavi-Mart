@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*HEADER*/
+.header{
+    display: flex;
+    padding: 2.5% 6%;
+    justify-content: center;
+    align-items: center;
+    background-color: #8c9e63;
+}
+.header h1{
+    color: #ffffff;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    display: inline-block;
+    padding: 8px 10px;
+}
+.nav-link ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 20px;
+}
+.nav-link ul li a:hover{
+    color: black;
+    border-color: black;
+    transition: all 0.5s;
+}
+.nav-link .fas{
+    font-size: 24px;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #8c9e63;
+    color: #ffffff;
+    padding: 40px 0 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 20%;
+    padding: 10px;
+}
+.col:nth-child(2),.col:nth-child(3){
+    flex-basis: 15%;
+}
+.col .fab{
+    font-size: 20px;
+    color: #000000;
+}
+.col .fas{
+    font-size: 20px;
+    color: #000000;
+    padding-right: 5px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.col ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.col ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.col ul li a:hover{
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+.col a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.col a:hover{
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+.social-icon .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.438);
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+.social-icon .fab:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    margin: 15px auto;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+}
+.underline{
+    width: 60%;
+    height: 3px;
+    background-color: #000000;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
