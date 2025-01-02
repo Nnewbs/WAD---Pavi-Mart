@@ -1,0 +1,217 @@
+
+
+/*CONTENT*/
+/***Back***/
+.back{
+    padding: 50px 0 0 100px;
+}
+.back a{
+    text-decoration: none;
+    color: #000000;
+}
+.back a:hover{
+    font-weight: 600;
+}
+
+/***Link list***/
+.link{
+    text-align: left;
+    font-size: 13px;
+    margin: 50px 150px;
+    box-shadow: -10px 10px 10px #0000002d;
+}
+.link ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+}
+.link ul li a{
+    text-decoration: none;
+    color: #000000; 
+}
+.link ul li a:hover{
+    font-weight: 600;
+}
+.list1{
+    width: 170px;
+    float: left;
+}
+.list2{
+    width: 200px;
+    float: left;
+    margin: 0 40px 0 5px;
+}
+.list3{
+    width: 250px;
+    float: left;
+    margin: 0 40px 0 5px;
+}
+.list4{
+    width: 170px;
+    float: left;
+    margin: 0 40px 0 5px;
+}
+
+/***Left***/
+.left{
+    padding: 20px 0px 0px 100px;
+}
+.left img{
+    width: 500px;
+    height: 500px;
+    border: 25px solid #EFE0DA;
+}
+
+
+/***Right***/
+.right{
+    float: right;
+    margin: -480px 0 100px 0;
+}
+.right i{
+    color: #ffa600;
+    margin-right: 5px;
+}
+.right h4{
+    padding-top: 20px;
+}
+.right .quantity{
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+.right .quantity button{
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    background-color: #ffba3954;
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
+}
+.right .quantity input{
+    border: none;
+    text-align: center;
+    width: 50px;
+    color: #000000;
+    background-color: #ffc5582d;
+    font-weight: 500;
+}
+.right .quantity .add-to-cart{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 10px;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.right .quantity .add-to-cart a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.right .quantity .add-to-cart:hover{
+    background-color: #e9a424;
+    transition: all 0.5s;
+}
+
+/******/
+.ship{
+    margin-top: 20px;
+}
+.ship img{
+    float: left;
+    padding: 5px 10px 0 0;
+}
+.ship #free-ship{
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.ship #policy{
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+}
+.ship #policy:hover{
+    font-weight: 700;
+}
+.desc{
+    padding: 0 100px 0 0;
+}
+.desc h4{
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+}
+.desc #desc-cfs{
+    font-size: 14px;
+    font-weight: 500;
+    width: 500px;
+}
+
+/***Info***/
+.info{
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.info p{
+    font-size: 14px;
+}
+.info .ingredients{
+    border: 5px solid #EFE0DA;
+    margin: 0px 57rem 0px 100px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 19%;
+}
+.info .how-to-use{
+    border: 5px solid #EFE0DA;
+    margin: -160px 410px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+}
+.info .precaution{
+    border: 5px solid #EFE0DA;
+    margin: -22px 12rem 0px 100px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+
+/******/
+.pic{
+    padding: 15rem 10rem 0 10rem;
+}
+.pic img{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #EFE0DA;
+    width: 400px;
+}
+
+/***What Do They Say***/
+.what-they-say{
+    margin-top: 100px;
+}
+.what-they-say h4{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feedback{
+    padding: 0 50px;
+    text-align: center;
+}
+.feedback img{
+    margin: 0 12px 20px 0px;
+    width: 400px;
+}
