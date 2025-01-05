@@ -17,12 +17,12 @@
 
 			//Check the level whether it is a customer or an admin.
 			if($row['level'] == "customer"){
-				echo "<script> window.location='userhome.php?id=".$id."'</script>";
+				echo "<script> window.location='homePage.php?id=".$id."'</script>";
 			} else{
-				echo "<script> window.location='adminhome.php?id=".$id."'</script>";
+				echo "<script> window.location='adminHome.php?id=".$id."'</script>";
 			}
 		} else {
-			echo "<script>alert('You have entered a wrong email or password!'); window.location='login.php';</script>";
+			echo "<script>alert('You have entered a wrong email or password!'); window.location='loginPage.php';</script>";
 		}
 	}
 ?>
@@ -34,18 +34,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="CSS/boxForm.css?v=<?php echo time(); ?>">
-
-
+<link rel="stylesheet" href="CSS/style.css?v=<?php echo time(); ?>">
 
 <body style="background-image: url('images/background.jpg');">
 
-	<!-- nav bar -->
-	<div id="navbar" style="padding: 35px 10px;">
-		<a href="index.php" id="logo">PAVI MART</a>
-	<div id="navbar-right">
-		<a href="about.php">About</a>
-	</div>
-	</div>
+<!-- Nav bar --> 
+<div id="navbar" style="padding: 35px 10px;">
+    <a href="index.php" id="logo">PAVI MART</a>
+    <div id="navbar-middle">
+        <a href="index.php">Home</a>
+        <a href="shopPage.php">Shop</a>
+        <a href="promotionPage.php">Promotion</a>
+        <a href="about.php">About Us</a>
+    </div>
+</div>
+<!-- End Nav bar-->
 
 <!--Log In Form-->
 <div class="containerreg">

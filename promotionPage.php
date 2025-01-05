@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PAVI MART</title>
+  <title>PROMOTION</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="CSS/style.css?v=<?php echo time(); ?>">
@@ -78,6 +78,23 @@
 </head>
 <body>
 
+<!-- Nav bar --> 
+<div id="navbar" style="padding: 35px 10px;">
+    <a href="homePage.php" id="logo">PAVI MART</a>
+    <div id="navbar-middle">
+        <a href="homePage.php">Home</a>
+        <a href="shopPage.php">Shop</a>
+        <a href="promotionPage.php">Promotion</a>
+        <a href="about.php">About Us</a>
+    </div>
+
+    <div id="navbar-right">
+        <a href="shopPage.php">Cart</a>
+        <a href="account.php">Account</a>
+    </div>
+</div>
+<!-- End Nav bar-->
+
 <!-- Home Section -->
 <div class="home">
   <img src="images/homepage.jpeg" alt="Homepage">
@@ -94,7 +111,9 @@
       <br>
       <main class="grid">
         <article>
-        <img height="500px"src="images/.jpg" alt="" width="100%">
+        <a href="chipsmore.php">
+        <img height="500px"src="images/chipsmore.jpg" alt="" width="100%">
+        </a>
           <div class="texts">
             <h3></h3>
             <button href="">Snack</button>
@@ -102,7 +121,7 @@
         </article>
   
         <article>
-        <img height="500px"src="images/.jpg" alt="" width="100%">
+        <img height="500px"src="images/women1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button href="product.php">Fresh Food</button>
@@ -110,7 +129,7 @@
         </article>
   
         <article>
-          <img height="500px"src="images/.jpg" alt="" width="100%">
+          <img height="500px"src="images/acc1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button>Bake Goods</button>
@@ -118,7 +137,7 @@
         </article>
 
         <article>
-        <img height="500px"src="images/.jpg" alt="" width="100%">
+        <img height="500px"src="images/men1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button href="">Snack</button>
@@ -126,7 +145,7 @@
         </article>
   
         <article>
-        <img height="500px"src="images/.jpg" alt="" width="100%">
+        <img height="500px"src="images/women1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button href="product.php">Fresh Food</button>
@@ -134,7 +153,7 @@
         </article>
   
         <article>
-          <img height="500px"src="images/.jpg" alt="" width="100%">
+          <img height="500px"src="images/acc1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button>Bake Goods</button>
@@ -142,7 +161,7 @@
         </article>
 
         <article>
-        <img height="500px"src="images/.jpg" alt="" width="100%">
+        <img height="500px"src="images/men1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button href="">Snack</button>
@@ -150,7 +169,7 @@
         </article>
   
         <article>
-        <img height="500px"src="images/.jpg" alt="" width="100%">
+        <img height="500px"src="images/women1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button href="product.php">Fresh Food</button>
@@ -158,7 +177,7 @@
         </article>
   
         <article>
-          <img height="500px"src="images/.jpg" alt="" width="100%">
+          <img height="500px"src="images/acc1.jpg" alt="" width="100%">
           <div class="texts">
             <h3></h3>
             <button>Bake Goods</button>
