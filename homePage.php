@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <script type="text/javascript" src="JS/script.js"></script>
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
 <style>
 	.grid > article{
 		width: 350px;
@@ -77,6 +78,18 @@
 </style>
 </head>
 <body>
+
+<!--Top Navigation Bar-->
+<div id="navbar-frame">
+
+</div>
+
+<script>
+$(function(){
+  $("#navbar-frame").load("navbar.html");
+});
+</script>
+<!--end of Navigation bar-->
 
 <!-- Home Section -->
 <div class="home">
